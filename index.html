@@ -1,205 +1,167 @@
 <!DOCTYPE html>
-<html lang=zh>
+<html lang="zh-cmn-Hans">
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Tigger">
-<meta property="og:url" content="https://wanbei.github.io/index.html">
-<meta property="og:site_name" content="Tigger">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="wanbei">
-<meta name="twitter:card" content="summary">
-    
-    
-        
-          
-              <link rel="shortcut icon" href="/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>Tigger</title>
-    <!-- styles -->
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tigger</title>
+  
+    <link rel="icon" href="/assets/logo.png">
+  
+  
+  
+  <!--link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css"-->
+  
+<link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github-gist.min.css">
+
+  
 <link rel="stylesheet" href="/css/style.css">
 
-    <!-- persian styles -->
-    
-      
-<link rel="stylesheet" href="/css/rtl.css">
-
-    
-    <!-- rss -->
-    
-    
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
-    <div class="content index py4">
+<body>
+<div class="Shell">
+    <aside class='SideBar'>
+    <section class='avatar' style="background-image: url(/assets/header.png)">
+        <div class='av-pic' style="background-image: url(/assets/logo.png)">
+        </div>
+    </section>
+    <section class='menu'>
+        <div>Tigger</div>
         
-          <header id="header">
-  <a href="/">
-  
-    
-      <div id="logo" style="background-image: url(/images/logo.png);"></div>
-    
-  
-    <div id="title">
-      <h1>Tigger</h1>
-    </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
-      </li>
-       
-        <li><a href="/">首页</a></li>
-       
-        <li><a href="/about/">关于</a></li>
-       
-        <li><a href="/archives/">归档</a></li>
-       
-        <li><a href="/projects_url">项目</a></li>
-      
-    </ul>
-  </div>
-</header>
+        <ul>
+          
+            <a href="/" class="Btn">
+              <li>Home</li>
+            </a>
+          
+            <a href="/archives/" class="Btn">
+              <li>Archive</li>
+            </a>
+          
+        </ul>
+    </section>
+    <section class="media">
+        
+    </section>
+</aside>
 
-        
-        <section id="about">
+    <div class="container">
+        <div data-pager-shell>
+            <ul class="Index">
   
   
-    <p>
-      在这里找到我：
+    <li>
+      <article class='ListView'>
+    <header class="title">
       
+        <h1>
+          <a href="/2020/04/09/jisuansiwei/">计算思维的体现</a>
+        </h1>
       
-      
-        
-          <a class="icon" target="_blank" rel="noopener" href="http://github.com/wanbei">
-            <i class="fab fa-github"></i><!--
-      ---></a><!--
-    ---><!--
-    --->   
-        
-      
-        
-          <a class="icon" target="_blank" rel="noopener" href="/">
-            <i class="fab fa-twitter"></i><!--
-      ---></a><!--
-    ---><!--
-    --->.
-        
-      
-    </p>
+      <div class='ListMeta'>
+  <time datetime="2020-04-09T09:34:17.012Z" itemprop="datePublished">
+    2020-04-09
+  </time>
   
-</section>
-
-<section id="writing">
-  <span class="h1"><a href="/archives">文章</a></span>
   
-  <ul class="post-list">
+  / 
+  <ul>
     
-    
-      
-    
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2020-04-09T09:34:17.012Z" itemprop="datePublished">2020-04-09</time>
-        
-      
-    </div>
+  <li class="meta-text">
+  { <a href="/categories/JavaScript/">JavaScript</a> }
+  </li>
 
 
-        <span>
-    
-        <a class="" href="/2020/04/09/jisuansiwei/">计算思维的体现</a>
-    
-
-
-</span>
-      </li>
-    
   </ul>
   
-</section>
+</div>
+
+    </header>
+    <div>
+      
+        <p>我们要做一个数字滚动增长的动效，从 0 - 3000 的变化持续 3秒。我们可以将此问题转化为平均速度求值的问题，例如：一辆汽车从 A 地开往 B 地，A 和 B之间的距离为 3000 米，这辆汽车从 A 地到 B 地耗时 3个小时。让我们求一下这辆车的平均速度。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">平均速度 &#x3D; (B - A) &#x2F; 3</span><br><span class="line">平均速度 &#x3D; (3000) &#x2F; 3</span><br><span class="line">平均速度 &#x3D; 1000  每小时1000米</span><br></pre></td></tr></table></figure>
+<p>让我们把问题在转回到数字增长的动效，我们完全可以参考求汽车平均速度的模型来计算数字增长动效的增长过程。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">平均增长 &#x3D; （3000 - 0）&#x2F; 3</span><br><span class="line">平均增长 &#x3D; 1000</span><br></pre></td></tr></table></figure>
+<p>这样我们得出每秒需要增加的数值，我们假定动画以每秒 60 帧播放，则还需计算每帧的平均增长。</p>
+<pre><code>每帧平均增长 = 1000 / 60
+每帧平均增长 = 16.666666666666668</code></pre><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> tick = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">let</span> endNum = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">calcNum</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(tick &gt; <span class="number">3</span> * <span class="number">60</span>) <span class="keyword">return</span> cancelAnimationFrame(requestAnimationFrameID)</span><br><span class="line">  endNum = <span class="number">16.666666666666668</span> * tick</span><br><span class="line">  $demo.innerHTML = endNum.toFixed(<span class="number">0</span>)</span><br><span class="line">  tick += <span class="number">1</span></span><br><span class="line">  requestAnimationFrame(calcNum)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> requestAnimationFrameID = <span class="built_in">window</span>.requestAnimationFrame(calcNum)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://codepen.io/wanbei08/pen/pojojNm?editors=0110" target="_blank" rel="noopener">https://codepen.io/wanbei08/pen/pojojNm?editors=0110</a></p>
+<p>好了，接下来该测试了。🤩，数字增长的好快，闪瞎双眼。看来要改进一下这个模型了。</p>
+<p>让我们再次回到汽车平均速度的问题上。汽车从 A 到 B，耗时 3 小时，A 和 B 距离 3000 米。那怎么计算汽车行驶 0.5 小时后所在的位置呢？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p &#x3D; fn(t)</span><br></pre></td></tr></table></figure>
+<p>汽车位置是一个关于时间的函数，时间改变，位置发生相应的改变。我们在上面的实现中使用了时间和速度来求得位置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">p &#x3D; fn(t, v)</span><br><span class="line"></span><br><span class="line">v：平均速度</span><br></pre></td></tr></table></figure>
+<p>好了，让我们来看看 v 是怎么计算出来的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">(B - A) &#x2F; d</span><br><span class="line"></span><br><span class="line">B - A &#x3D; c</span><br><span class="line"></span><br><span class="line">c: 物体移动的距离</span><br><span class="line">d: 持续时间，这里汽车持续行驶 3 个小时</span><br><span class="line">所以：</span><br><span class="line">v &#x3D; c &#x2F; d</span><br></pre></td></tr></table></figure>
+
+<p>让我们来改一下上面求 p 的公式吧：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p = fn(t, c)</span><br></pre></td></tr></table></figure>
+<p>p 已经变成了关于 t 和 c 的函数，也就是说，我可以求得任意A、B之间的某一时刻的汽车位置。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">p = <span class="function"><span class="keyword">function</span>(<span class="params">c, d, t</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> t * c/d</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>理想的状态下汽车以平均速度行驶，但是在现实生活中，很难做到一直一个速度开车，在路途中可能一会快一会慢，但是到达目的地所花费的时间是不变的。这也就是说，我们的速度是一直在变化的。那我们应该怎么模拟这种变速的状态呢？</p>
+<p>先让我们看一附图：</p>
+<p><img src="https://img14.360buyimg.com/imagetools/jfs/t1/109940/23/11667/24402/5e8d933dEa5024b7f/24e7d56736ce166e.png" alt=""></p>
+<p>从上图可以看出，平均速度不变，只是时间的一个变化。所以我们只需要给时间一点魔法，便可以让汽车的行进更加神奇。此时的函数如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">magic = <span class="function"><span class="keyword">function</span>(<span class="params">t</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> magicT;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">p = <span class="function"><span class="keyword">function</span>(<span class="params">c, d, t</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> c * magic(t/d)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注意：我们所使用的魔法只能是 0 到 1 的闭区间函数。</p>
+<p>那我们回到数字增长的效果上来吧。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">magic</span>(<span class="params">t</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">Math</span>.pow(t<span class="number">-1</span>, <span class="number">3</span>) + <span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">p</span>(<span class="params">t, c, d</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> c * magic(t/d)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> t = <span class="number">0</span></span><br><span class="line"><span class="keyword">let</span> c = <span class="number">3000</span></span><br><span class="line"><span class="keyword">let</span> d = <span class="number">180</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">calcNum</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (t &gt; d) &#123;</span><br><span class="line">        <span class="keyword">return</span> cancelAnimationFrame(requestAnimationFrameID)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> cp = p(t, c, d)</span><br><span class="line">    $demo.innerHTML = cp.toFixed(<span class="number">0</span>)</span><br><span class="line">    t += <span class="number">1</span></span><br><span class="line">    requestAnimationFrame(calcNum)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> requestAnimationFrameID = <span class="built_in">window</span>.requestAnimationFrame(calcNum)</span><br></pre></td></tr></table></figure>
+<p><a href="https://codepen.io/wanbei08/pen/PoPoPjB?editors=0010" target="_blank" rel="noopener">https://codepen.io/wanbei08/pen/PoPoPjB?editors=0010</a></p>
+<p>好吧，使用神奇的魔法，数字变化还是非常快。尤其是个位数。</p>
+<p>看来仅仅使用一种魔法是控制不住这个恶魔 👿的。在想想还能不能在魔法的基础上增加一种魔法呢？</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">p = <span class="function"><span class="keyword">function</span>(<span class="params">c, d, t</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> t * c/d</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>让我们盯着这个公式看一会，再看一会。我们回想一下汽车的运动，汽车是持续不断地移动，那我们能不能施加一些魔法，让它拥有瞬移的本领呢？为了让汽车可以瞬移，我们唯一需要控制的就是汽车所处的位置。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p = fn(t)</span><br></pre></td></tr></table></figure>
+<p>我们让 p 也变成一个关于 t （时间）的函数，通过通过时间来计算 p 是不是需要更新。</p>
+<p>那让我们来试试吧。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">magic</span>(<span class="params">t</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">Math</span>.pow(t<span class="number">-1</span>, <span class="number">3</span>) + <span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">p</span>(<span class="params">t, c, d</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> c * magic(t/d)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> t = <span class="number">0</span></span><br><span class="line"><span class="keyword">let</span> c = <span class="number">3000</span></span><br><span class="line"><span class="keyword">let</span> d = <span class="number">180</span></span><br><span class="line"><span class="keyword">let</span> skip = <span class="number">0</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">calcNum</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (t &gt; d) &#123;</span><br><span class="line">        <span class="keyword">return</span> cancelAnimationFrame(requestAnimationFrameID)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> cp = p(t, c, d)</span><br><span class="line">    <span class="comment">// 每隔 n-1 播放一次</span></span><br><span class="line">    <span class="keyword">if</span>(skip == <span class="number">4</span>) skip = <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span>(skip == <span class="number">0</span>) $demo.innerHTML = cp.toFixed(<span class="number">0</span>)</span><br><span class="line">    t += <span class="number">1</span></span><br><span class="line">    skip += <span class="number">1</span></span><br><span class="line">    requestAnimationFrame(calcNum)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> requestAnimationFrameID = <span class="built_in">window</span>.requestAnimationFrame(calcNum)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://codepen.io/wanbei08/pen/LYpYpjy?editors=0010" target="_blank" rel="noopener">https://codepen.io/wanbei08/pen/LYpYpjy?editors=0010</a></p>
+<p>在这里我们通过设置暂停帧，来降低数字增长频率，这种方法设置简单（上面的方法并没有考虑边界情况）。</p>
+<p>这样我们可以给数字增长减速了，同时还保证了持续时间。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>来总结一下我们是怎样一步一步的让数字动起来的吧。</p>
+<ul>
+<li>把实际问题抽象为数学问题，并建模。这里我们把数字增长动效进行了抽象，将其抽象为一个关于时间的函数。</li>
+<li>进行映射，把数学模型中的变量等用特定符号代替。用符号一一对应数学模型中的变量和规则等。这里的符号可以理解为程序中的函数。</li>
+<li>通过编程把解决问题的逻辑分析过程写成算法，把解题思路转换为计算机指令。也就是说我们将函数之间的逻辑关系，以及函数内部的具体处理逻辑写出来。</li>
+<li>计算机根据指令自动执行，求出结果。</li>
+</ul>
+<p>建立数学模型的过程就是理解问题的过程，并且要把我们对问题的理解用数学语言描述出来，这很关键。在整个过程中，抽象是方法和手段，贯穿整个过程的每个环节。</p>
+
+      
+    </div>
+</article>
+
+    </li>
+  
+</ul>
 
 
-
-        
-        <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy;
-    
-    
-    2016-2020
-    wanbei
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="/">首页</a></li>
-         
-          <li><a href="/about/">关于</a></li>
-         
-          <li><a href="/archives/">归档</a></li>
-         
-          <li><a href="/projects_url">项目</a></li>
-        
-      </ul>
-    </nav>
-  </div>
+            <footer>
+    <div>© 2020 - wanbei </div>
+    <div>
+        <span>
+            Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>
+        </span>
+        ,
+        <span>
+            Theme - <a href="https://github.com/nameoverflow/hexo-theme-icalm" target="_blank" rel="noopener">Icalm</a>
+        </span>
+    </div>
 </footer>
 
+        </div>
     </div>
-    <!-- styles -->
+</div>
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<script src="/js/pager/dist/singlepager.js"></script>
 
+<script>
+var sp = new Pager('data-pager-shell')
 
-<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
-
-
-    <!-- jquery -->
-
-<script src="/lib/jquery/jquery.min.js"></script>
-
-
-<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
-
-<!-- clipboard -->
-
-
-<script src="/js/main.js"></script>
-
-<!-- search -->
-
-<!-- Google Analytics -->
-
-<!-- Baidu Analytics -->
-
-<!-- Disqus Comments -->
-
-
+</script>
 </body>
 </html>
